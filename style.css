@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 100vh;
+    width: 100%;
+}
+.header{
+    padding-top: 45px;
+    /* background-color: red; */
+    font-size: 45px;
+    text-align: center;
+    font-weight: 900;
+    color: rgb(17, 138, 178);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.temp{
+    background-color:lightseagreen;
+    margin-top: 70px;
+    height: 60%;
+    width: 450px;
+    font-size: 20px;
+   margin-left: 25%;
+   margin-right:20% ;
+   padding-left: 13%;
+   border-radius: 6px;
+}
+.cf{
+    padding-top: 100px;
+}
+.cf input{
+    height: 40px;
+    width: 180px;
+}
+.cf label{
+    font-size: 28px;
+    padding-left: 15px;
+    color: rgb(197, 58, 58);
+    font-weight: 700;
+}
+.fh{
+    margin-top: 40px;
+}
+.fh input{
+    height: 40px;
+    width: 180px;  
+}
+.fh label{
+    font-size: 28px;
+    padding-left: 15px;
+    color: rgb(197, 58, 58);
+    font-weight: 700;
+}
+@media only screen and (max-width: 600px){
+
+    .container{
+        height: 140vh;
+
+    }
+    .header{
+        margin-bottom: 40px;
+    }
+    .temp{
+        height: 50%;
+        width: 300px;
+        margin: auto;
+    }
+    .cf{
+        padding-top: 60px;
+    }
+    .cf input{
+        height: 30px;
+        width: 140px;
+    }
+    .cf label{
+        font-size: 25px;
+        padding-left: 15px;
+        color: rgb(197, 58, 58);
+        font-weight: 700;
+    }
+    .fh{
+        margin-top: 40px;
+    }
+    .fh input{
+        height: 30px;
+        width: 140px;  
+    }
+    .fh label{
+        font-size: 25px;
+        padding-left: 15px;
+        color: rgb(197, 58, 58);
+        font-weight: 700;
+    }
+}
